@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/staticTextViewFechaIni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Fecha de inicio actual :"
+        android:textAlignment="viewStart"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewFechaInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/staticTextViewFechaIni"
+        android:layout_alignBottom="@+id/staticTextViewFechaIni"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="11dp" />
+
+    <TextView
+        android:id="@+id/staticTextViewFechaFin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/staticTextViewFechaIni"
+        android:layout_below="@+id/staticTextViewFechaIni"
+        android:layout_marginTop="10dp"
+        android:text="Fecha fin temporada : "
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        android:layout_alignEnd="@+id/staticTextViewFechaIni" />
+
+    <TextView
+        android:id="@+id/textViewFechaFin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/staticTextViewFechaFin"
+        android:layout_alignStart="@+id/textViewFechaInicio"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/staticTextViewFechaNuevaIni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/staticTextViewFechaFin"
+        android:layout_alignStart="@+id/staticTextViewFechaFin"
+        android:layout_below="@+id/staticTextViewFechaFin"
+        android:layout_marginTop="12dp"
+        android:text="Fecha nueva de inicio :"
+        android:textAlignment="viewStart"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewFechaNuevaInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/staticTextViewFechaNuevaIni"
+        android:layout_alignStart="@+id/textViewFechaFin"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/botonAceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewFechaNuevaInicio"
+        android:layout_below="@+id/textViewFechaNuevaInicio"
+        android:layout_marginTop="13dp"
+        android:text="Aceptar"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/botonCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/staticTextViewFechaNuevaIni"
+        android:layout_alignTop="@+id/botonAceptar"
+        android:text="Cancelar"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Gestion Reserva Coto</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="Aceptar">Aceptar</string>
+    <string name="Cancelar">Cancelar</string>
+
+    <string name="date_picker_dialog_title_fec_ini">Fecha de incio temporada</string>
+    <string name="date_picker_dialog_title_fec_fin">Fecha de fin temporada</string>
+
+    <string name="mAceptar">Aceptar</string>
+
+</resources>

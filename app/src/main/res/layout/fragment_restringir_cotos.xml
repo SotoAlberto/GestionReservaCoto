@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/staticTextViewCotoRamiro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:text="EL RAMIRO"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/staticTextViewFechaIniRamiro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/staticTextViewCotoRamiro"
+        android:layout_below="@+id/staticTextViewCotoRamiro"
+        android:layout_marginTop="10dp"
+        android:text="Fecha de inicio uso de Coto :"
+        android:textAlignment="viewStart"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/staticTextViewFechaFinRamiro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/staticTextViewFechaIniRamiro"
+        android:layout_below="@+id/staticTextViewFechaIniRamiro"
+        android:layout_marginTop="10dp"
+        android:text="Fecha fin de uso de Coto :"
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        android:layout_alignEnd="@+id/staticTextViewFechaIniRamiro" />
+
+    <TextView
+        android:id="@+id/textViewFechaInicioRamiro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/staticTextViewCotoRamiro"
+        android:layout_alignTop="@+id/staticTextViewFechaIniRamiro"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewFechaFinRamiro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/staticTextViewFechaFinRamiro"
+        android:layout_alignStart="@+id/textViewFechaInicioRamiro"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/botonModificarFecIniRamiro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewFechaFinRamiro"
+        android:layout_below="@+id/textViewFechaFinRamiro"
+        android:layout_marginTop="14dp"
+        android:elevation="0dp"
+        android:text="Modificar"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/staticTextViewLasChiquillas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="94dp"
+        android:text="LAS CHIQUILLAS"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        android:layout_below="@+id/botonModificarFecIniRamiro"
+        android:layout_alignStart="@+id/staticTextViewFechaFinRamiro"
+        android:layout_alignEnd="@+id/botonModificarFecIniRamiro" />
+
+    <TextView
+        android:id="@+id/staticTextViewFechaIniChiquillas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/staticTextViewLasChiquillas"
+        android:layout_below="@+id/staticTextViewLasChiquillas"
+        android:layout_marginTop="10dp"
+        android:text="Fecha de inicio uso de Coto :"
+        android:textStyle="bold"
+        android:layout_alignEnd="@+id/staticTextViewFechaFinRamiro" />
+
+    <TextView
+        android:id="@+id/staticTextViewFechaFinChiquillas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/staticTextViewFechaIniChiquillas"
+        android:layout_below="@+id/staticTextViewFechaIniChiquillas"
+        android:layout_marginTop="10dp"
+        android:text="Fecha fin de uso de Coto :"
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        android:layout_alignEnd="@+id/staticTextViewFechaIniChiquillas"/>
+
+    <TextView
+        android:id="@+id/textViewFechaInicioChiquillas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/staticTextViewLasChiquillas"
+        android:layout_alignTop="@+id/staticTextViewFechaIniChiquillas"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewFechaFinChiquillas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/staticTextViewFechaFinChiquillas"
+        android:layout_alignStart="@+id/textViewFechaInicioChiquillas"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/botonModificarFecIniChiquillas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewFechaFinChiquillas"
+        android:layout_below="@+id/textViewFechaFinChiquillas"
+        android:layout_marginTop="15dp"
+        android:text="Modificar"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+</RelativeLayout>

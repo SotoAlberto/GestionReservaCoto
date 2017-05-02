@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Gestion de Aplicacion">
+        <menu>
+            <item
+                android:id="@+id/nav_generar_periodo_caza"
+                android:icon="@drawable/ic_date_range_black_24dp"
+                android:title="Generar Periodo de Caza" />
+            <item
+                android:id="@+id/nav_generar_contactos"
+                android:icon="@drawable/ic_contactos_black"
+                android:title="Socios en la Agenda Telefonica" />
+
+            <item
+                android:id="@+id/nav_penalizar_usuarios"
+                android:icon="@drawable/ic_pan_tool_black_24dp"
+                android:title="Penalizar Usuarios" />
+            <item
+                android:id="@+id/nav_restringir_cotos"
+                android:icon="@drawable/ic_alarm_off_black_24dp"
+                android:title="Restringir Cotos" />
+        </menu>
+    </item>
+
+    <item android:title="Utilidades">
+        <menu>
+            <item
+                android:id="@+id/nav_estadisticas_uso"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="Estadisticas de Uso" />
+            <item
+                android:id="@+id/nav_comenzar_aplicacion"
+                android:icon="@drawable/ic_play_arrow_black_24dp"
+                android:title="Comenzar Aplicacion" />
+        </menu>
+    </item>
+
+</menu>
